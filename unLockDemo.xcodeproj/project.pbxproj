@@ -12,14 +12,10 @@
 		FDE93BD92091742C0090FAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE93BD72091742C0090FAF5 /* Main.storyboard */; };
 		FDE93BDB2091742D0090FAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE93BDA2091742D0090FAF5 /* Assets.xcassets */; };
 		FDE93BDE2091742D0090FAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE93BDC2091742D0090FAF5 /* LaunchScreen.storyboard */; };
-		FDE93BE6209174B40090FAF5 /* UnLockGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE93BE5209174B40090FAF5 /* UnLockGestureView.swift */; };
-		FDE93BEE209176650090FAF5 /* unselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE93BE8209176650090FAF5 /* unselected@3x.png */; };
-		FDE93BEF209176650090FAF5 /* unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE93BE9209176650090FAF5 /* unselected.png */; };
 		FDE93BF0209176650090FAF5 /* unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE93BEA209176650090FAF5 /* unselected@2x.png */; };
 		FDE93BF1209176650090FAF5 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE93BEB209176650090FAF5 /* selected@2x.png */; };
-		FDE93BF2209176650090FAF5 /* selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE93BEC209176650090FAF5 /* selected@3x.png */; };
-		FDE93BF3209176650090FAF5 /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE93BED209176650090FAF5 /* selected.png */; };
-		FDE93BF5209176D60090FAF5 /* UnLockBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE93BF4209176D60090FAF5 /* UnLockBuilderView.swift */; };
+		FDE93BF820919DB90090FAF5 /* UnLockBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE93BF620919DB90090FAF5 /* UnLockBuilderView.swift */; };
+		FDE93BF920919DB90090FAF5 /* UnLockGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE93BF720919DB90090FAF5 /* UnLockGestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +26,10 @@
 		FDE93BDA2091742D0090FAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDE93BDD2091742D0090FAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDE93BDF2091742D0090FAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDE93BE5209174B40090FAF5 /* UnLockGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnLockGestureView.swift; sourceTree = "<group>"; };
-		FDE93BE8209176650090FAF5 /* unselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselected@3x.png"; sourceTree = "<group>"; };
-		FDE93BE9209176650090FAF5 /* unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unselected.png; sourceTree = "<group>"; };
 		FDE93BEA209176650090FAF5 /* unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselected@2x.png"; sourceTree = "<group>"; };
 		FDE93BEB209176650090FAF5 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
-		FDE93BEC209176650090FAF5 /* selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@3x.png"; sourceTree = "<group>"; };
-		FDE93BED209176650090FAF5 /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
-		FDE93BF4209176D60090FAF5 /* UnLockBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnLockBuilderView.swift; sourceTree = "<group>"; };
+		FDE93BF620919DB90090FAF5 /* UnLockBuilderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnLockBuilderView.swift; sourceTree = "<group>"; };
+		FDE93BF720919DB90090FAF5 /* UnLockGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnLockGestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +65,6 @@
 				FDE93BD32091742C0090FAF5 /* AppDelegate.swift */,
 				FDE93BD52091742C0090FAF5 /* ViewController.swift */,
 				FDE93BE7209176350090FAF5 /* unlockview */,
-				FDE93BE5209174B40090FAF5 /* UnLockGestureView.swift */,
-				FDE93BF4209176D60090FAF5 /* UnLockBuilderView.swift */,
 				FDE93BD72091742C0090FAF5 /* Main.storyboard */,
 				FDE93BDA2091742D0090FAF5 /* Assets.xcassets */,
 				FDE93BDC2091742D0090FAF5 /* LaunchScreen.storyboard */,
@@ -86,12 +76,10 @@
 		FDE93BE7209176350090FAF5 /* unlockview */ = {
 			isa = PBXGroup;
 			children = (
-				FDE93BED209176650090FAF5 /* selected.png */,
+				FDE93BF620919DB90090FAF5 /* UnLockBuilderView.swift */,
+				FDE93BF720919DB90090FAF5 /* UnLockGestureView.swift */,
 				FDE93BEB209176650090FAF5 /* selected@2x.png */,
-				FDE93BEC209176650090FAF5 /* selected@3x.png */,
-				FDE93BE9209176650090FAF5 /* unselected.png */,
 				FDE93BEA209176650090FAF5 /* unselected@2x.png */,
-				FDE93BE8209176650090FAF5 /* unselected@3x.png */,
 			);
 			path = unlockview;
 			sourceTree = "<group>";
@@ -158,11 +146,7 @@
 				FDE93BDE2091742D0090FAF5 /* LaunchScreen.storyboard in Resources */,
 				FDE93BDB2091742D0090FAF5 /* Assets.xcassets in Resources */,
 				FDE93BD92091742C0090FAF5 /* Main.storyboard in Resources */,
-				FDE93BEE209176650090FAF5 /* unselected@3x.png in Resources */,
 				FDE93BF0209176650090FAF5 /* unselected@2x.png in Resources */,
-				FDE93BF3209176650090FAF5 /* selected.png in Resources */,
-				FDE93BF2209176650090FAF5 /* selected@3x.png in Resources */,
-				FDE93BEF209176650090FAF5 /* unselected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDE93BF5209176D60090FAF5 /* UnLockBuilderView.swift in Sources */,
-				FDE93BE6209174B40090FAF5 /* UnLockGestureView.swift in Sources */,
+				FDE93BF920919DB90090FAF5 /* UnLockGestureView.swift in Sources */,
+				FDE93BF820919DB90090FAF5 /* UnLockBuilderView.swift in Sources */,
 				FDE93BD62091742C0090FAF5 /* ViewController.swift in Sources */,
 				FDE93BD42091742C0090FAF5 /* AppDelegate.swift in Sources */,
 			);
