@@ -28,6 +28,9 @@ class UnLockGestureView:UIView {
     private var lineLayers: [CAShapeLayer] = []
     private let linesLayer = CAShapeLayer.init()
 
+    ///连接完成
+    var connectfinshcomplete:(()->Void)?
+
     // 连接区域
     var touchdoubledistance:CGFloat {
         get {
@@ -146,7 +149,7 @@ extension UnLockGestureView {
 
     private func drawEnd() {
         if selectedIndex.count > 0  {
-
+            connectfinshcomplete?()
         }
         selectedIndex.removeAll()
         linesLayer.path = nil
